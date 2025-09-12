@@ -38,7 +38,7 @@ jobs:
       # https://github.com/google-github-actions/auth/releases
       # v1.0.0
       - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@ef5d53e30bbcd8d0836f4288f5e50ff3e086997d
+        uses: google-github-actions/auth@fc2174804b84f912b1f6d334e9463f484f1c552d
         with:
           project_id: ${{ secrets.GKE_PROJECT }}
           credentials_json: ${{ secrets.GKE_SA_KEY }}
