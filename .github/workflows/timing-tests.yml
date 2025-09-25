@@ -61,7 +61,7 @@ jobs:
         if: ${{ failure() }}
         # https://github.com/ScaCap/action-surefire-report/releases/
         # v1.0.13
-        uses: scacap/action-surefire-report@482f012643ed0560e23ef605a79e8e87ca081648
+        uses: scacap/action-surefire-report@5609ce4db72c09db044803b344a8968fd1f315da
         with:
           report_paths: '**/target/test-reports/TEST-*.xml'
           fail_if_no_tests: false
