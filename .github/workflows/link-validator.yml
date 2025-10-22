@@ -35,7 +35,7 @@ jobs:
       - name: Set up JDK 11
         # https://github.com/coursier/setup-action/releases
         # v1.3.5
-        uses: coursier/setup-action@7bde40eee928896f074dbb76d22dd772eed5c65f
+        uses: coursier/setup-action@9ff46a4c58079ee9ad17a3ff6f0572820f109182
         with:
           jvm: temurin:1.11
           apps: cs
