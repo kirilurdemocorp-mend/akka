@@ -47,7 +47,7 @@ jobs:
 
       - name: Email on failure
         if: ${{ failure() }}
-        uses: dawidd6/action-send-mail@6063705cefe50cb915fc53bb06d4049cae2953b2
+        uses: dawidd6/action-send-mail@5d2f5abd00207aef5c29e26e9471a8c1cd01f17b
         with:
           server_address: smtp.gmail.com
           server_port: 465
