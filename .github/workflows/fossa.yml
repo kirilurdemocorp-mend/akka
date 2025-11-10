@@ -25,7 +25,7 @@ jobs:
       - name: Cache Coursier cache
         # https://github.com/coursier/cache-action/releases
         # v6.4.5
-        uses: coursier/cache-action@1ff273bff02a8787bc9f1877d347948af647956d
+        uses: coursier/cache-action@02f666a4dac9add5772f3597ab33b6384393a55c
 
       - name: Set up JDK 17
         # https://github.com/coursier/setup-action/releases
